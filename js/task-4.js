@@ -11,10 +11,10 @@ const info = {
 
 if(elements.email.value.trim() === "" || elements.password.value.trim() === ""){
     alert('All form fields must be filled in');
-}else(
+}else{
     console.log(info)
-);
     return event.target.reset();
+};
        };
 
 

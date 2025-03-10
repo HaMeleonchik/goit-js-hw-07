@@ -13,7 +13,7 @@ createButton.addEventListener("click", createButtonClick);
 function createButtonClick(){
   let amountInputValue = amountInput.value;
   if(amountInputValue >= 1 && amountInputValue <= 100){
-    box.innerHTML = createBoxes(amountInputValue);
+    box.insertAdjacentHTML("beforeend", createBoxes(amountInputValue));
   }
 
 };

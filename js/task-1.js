@@ -8,9 +8,12 @@ categoriesLi.forEach(categorie => {
  console.log(`Category: ${categoriesText}`);
  console.log(`Elements:  ${categoriesElement.length}`);
 });
+// style
+
+
+
 // basic
 const categorieStyleUl = categoriesUl.querySelectorAll("ul, li");
-
 categorieStyleUl.forEach(ul =>{
     ul.style.listStyleType = "none";
     ul.style.margin = "0";
